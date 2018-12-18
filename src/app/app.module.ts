@@ -24,6 +24,7 @@ import { SalonComponent } from './components/salon/salon.component';
 import { CoffeeshopComponent } from './components/coffeeshop/coffeeshop.component';
 import { VetsComponent } from './components/vets/vets.component';
 import { SchoolsComponent } from './components/schools/schools.component';
+import { StoryComponent } from './components/story/story.component';
 
 
 // Page Routes
@@ -40,6 +41,7 @@ const appRoutes:Routes=[
   {path:'app-cofeeshop', component:CoffeeshopComponent},
   {path:'app-vets', component:VetsComponent},
   {path:'app-schools', component:SchoolsComponent},
+  {path:'app-story', component:StoryComponent},
 ]
 
 @NgModule({
@@ -56,7 +58,8 @@ const appRoutes:Routes=[
     SalonComponent,
     CoffeeshopComponent,
     VetsComponent,
-    SchoolsComponent
+    SchoolsComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+
+section{
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+
+
+section.app-store{
+padding-left:3%;
+    padding-top: 40px!important;
+    padding-bottom: 40px!important;
+    background-image: linear-gradient(#18242C, #14171A 90%, #14171A)!important;
+}
+
+img.oneapp-img {
+    width: 60%;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
