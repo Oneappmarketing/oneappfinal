@@ -38,6 +38,20 @@ display:block;
 margin:0 auto;
 
 }
+section.app-marketing{
+
+background-color: #17E2AE;
+}
+
+img.app-marketing{
+width:60%;
+display:block;
+margin: 0 auto;
+
+
+
+
+}
 
 /*Business Section*/
 section.business{
