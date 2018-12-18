@@ -83,6 +83,10 @@ background-color: #EDF2FB;
     padding-top:5%;padding-left:10%;
    
 }
+
+span.black{
+    color:black;
+}
 /*Box shadow around cols*/
 img.img-shadow{
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
