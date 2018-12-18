@@ -1,0 +1,50 @@
+.footer-bottom{
+font-family:'oswald','sans-serif';
+padding-top:30px;
+line-height:40px;
+background-color:black;
+color:white;
+height:150px;
+text-align:center;
+font-size:24px;
+
+}
+
+.footer-bottom p {
+font-size:20px;
+
+}
+
+.social-icons{
+padding-left:3%;
+}
+
+i.fab.fa-facebook-f{
+    padding-right:5px;
+    font-size:22px;
+
+}
+
+i.fab.fa-twitter{
+ padding-right:5px;
+ font-size:22px;
+}
+
+i.fab.fa-youtube{
+    padding-right:5px;
+    font-size:22px;
+
+}
+
+i.fab.fa-snapchat-ghost{
+
+    padding-right:5px;
+    font-size:22px;
+
+}
+
+i.fab.fa-instagram{
+    padding-right:5px;
+    font-size:22px;
+
+}

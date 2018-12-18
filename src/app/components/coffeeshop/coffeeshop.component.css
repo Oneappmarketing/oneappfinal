@@ -1,0 +1,285 @@
+/*Dentists*/
+
+
+
+/*General Styles*/
+
+.dark{
+    background-color:#14171A!important;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    line-height:30px;
+    font-size:20px;
+    text-align:center;
+}
+img.img-fluid.one-click-logo{
+    width:30%;
+    display:block;
+    margin: 0 auto;
+}
+    
+    
+    
+    .blog-entry{
+        padding:15px;
+    }
+
+    h2.gym-title{
+    font-family: 'Montserrat', sans-serif;
+    padding-top:20px;
+    text-align:center;
+    color:#1EA27F;
+    font-weight:900;
+}
+
+
+.logo{
+    display:inline-block;
+    /* flex-direction: row; */
+    width:100%;
+    height:200px;
+    background-color:white;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.top-website{
+    text-align:center;
+    font-size:40px;
+}
+
+
+.card{
+    margin-bottom:30px;
+}
+
+.card-body{
+
+
+}
+    
+    /*Navbar*/
+
+    .bg-light {
+    background-color:#272B30!important;
+}
+a.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white!important;
+    font-size:18px;
+
+}
+    img.img-logo {
+    width: 20%!important;
+}
+
+.navbar-brand{
+    margin-left:15%;
+}
+
+img.img-app-badge {
+    width: 10%;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*Contact*/
+
+hr.white-line{
+    background-color:white;
+}
+
+section#contact {
+    background-color: #272B30;
+    height: auto;
+}
+
+.contact-heading {
+    padding-top:80px;
+    color: white;
+ 
+    /* text-align: center; */
+}
+
+.contact-heading h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size:50px;
+    /* background-color:red; */
+    text-align:center;
+    font-weight:bold;
+}
+
+.form-container {
+    padding-top: 30px;
+}
+
+input#exampleInputEmail1 {
+
+    height: 50px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+textarea#exampleFormControlTextarea1{
+    height: 250px;
+    width: 90%;
+    border-radius: 8px;
+
+
+}
+
+button.btn.btn-primary {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color:#1EA27F;
+    padding:15px;
+    outline:0;
+    margin-bottom:30px;
+}
+
+*responsive tablet*/
+@media (max-width: 768px) {
+  .logo {
+    height: auto;
+  }
+}
+
+/*responsive tablet*/
+
+@media (min-width: 1200px) {
+    .logo {
+        height: auto !important;
+        padding-top:30px;
+        padding-bottom:15px;
+      }
+
+}
+
+@media (max-width: 1200px) {
+
+  /* img{
+      padding-bottom:25px;
+  } */
+    .logo {
+        height: auto !important;
+        padding-top:15px;
+        padding-bottom:15px;
+      }
+
+      h2.gym-title {
+        font-size:30px;
+        line-height:40px;
+        margin:0!important;
+        font-weight:900!important;
+        padding-top:30px;
+
+        
+  }
+  
+    .blog-entry p{
+  
+      font-size:20px;
+      line-height:35px;
+      margin-top:-5px;
+      /* text-align: left; */
+      
+      }
+
+
+
+}
+@media (max-width: 600px) {
+
+  
+  .logo {
+    height: auto !important;
+    padding-top:15px;
+    padding-bottom:15px;
+  }
+
+  h2.top-website{
+      font-size:24px;
+  }
+
+  /*blog-heading*/
+  h2.gym-title {
+    padding-top:30px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.blog-entry p{
+
+font-size:17px;
+margin-top:-5px;
+
+}
+
+section#contact {
+display:none;
+
+
+
+}
+
+
+}
+
+/*responsive tablet*/
+@media (max-width: 480px) {
+  .logo {
+    height: auto !important;
+  }
+
+  h2.gym-title {
+      font-size:20px;
+      line-height:30px;
+      margin:0!important;
+      font-weight:900!important;
+      
+}
+
+  .blog-entry p{
+
+    font-size:15px;
+    margin-top:-5px;
+    
+    }
+    
+}
+
+/*responsive tablet*/
+@media (max-width: 360px) {
+  .logo {
+    height: auto;
+  }
+
+ 
+
+  h2.gym-title {
+      font-size:20px;
+      line-height:30px;
+      margin:0!important;
+      font-weight:900!important;
+      
+}
+
+  .blog-entry p{
+
+    font-size:15px;
+    margin-top:-5px;
+    
+    }
+}
+
+
+
+
+

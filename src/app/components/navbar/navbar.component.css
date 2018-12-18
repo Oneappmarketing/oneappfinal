@@ -1,0 +1,39 @@
+ /*Navbar*/
+
+ .bg-light {
+    background-color:#272B30!important;
+}
+a.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white!important;
+    font-size:18px;
+
+}
+/*Hover state*/
+a.nav-link:hover {
+    
+    color:#00E4AC!important;
+
+
+}
+     img.img-logo {
+    width: 25%;
+}
+
+.navbar-brand{
+    margin-left:15%;
+} 
+
+
+/*Responsive Queries*/
+
+@media (max-width: 768px) {
+
+img.img.logo{
+width:60%!important;
+/* background-color:yellow!important; */
+}
+
+
+}
+
