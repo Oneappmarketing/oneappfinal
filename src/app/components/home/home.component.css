@@ -65,8 +65,8 @@ font-weight:900;
 
 /*Business Section*/
 section.business{
-padding-top:50px;
-padding-bottom:50px;
+padding-top:90px;
+padding-bottom:90px;
 height:auto;
 padding-left:3%;
 background-color: #EDF2FB;
@@ -122,9 +122,20 @@ section.marketing-tips h2{
     color:#00E4AC;
     font-size:20px;
     line-height:24px;
-    padding-bottom:15px;
     text-align:center;
     line-height:28px;
+    text-align:center;
+
+}
+
+.tips-text{
+font-size:40px;
+color:white;
+text-align:center;
+font-family: 'Oswald','sans-serif';
+margin-top:-30px;
+margin-bottom:30px;
+margin-left:20px;
 
 }
 
