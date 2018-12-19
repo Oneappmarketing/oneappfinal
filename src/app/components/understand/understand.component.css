@@ -1,0 +1,100 @@
+
+/* section{
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:3%;
+} */
+
+p.green{
+    color:#1EA27F!important;
+}
+
+span.green{
+    color:#1EA27F!important;
+    font-weight:bold;  
+}
+
+
+section.app-store{
+    padding-left:3%;
+        padding-top: 40px!important;
+        padding-bottom: 40px!important;
+        background-image: linear-gradient(#18242C, #14171A 90%, #14171A)!important;
+    }
+    
+    img.oneapp-img {
+        width: 60%;
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    
+    
+    section.app-story-blog{
+        padding-top:50px!important;
+        padding-bottom:50px!important;
+        padding-left:3%;
+    
+    }
+    
+    
+    
+    .green-text{
+    font-family: 'Montserrat', sans-serif;
+        color: #1FA27F;
+        font-weight: 900;
+        text-align: center;
+        font-size: 35px;
+        line-height:45px
+    }
+    
+    h4.business-story {
+        padding-top: 10px;
+        color: black!important;
+        text-align: center;
+        font-size: 28px;
+        /* font-size: 40px!important; */
+        letter-spacing: -0.01rem;
+        padding-bottom:15px;
+    }
+    
+    span.yours-span{
+        color: #1FA27F;
+        font-weight: 900;
+    
+    }
+    
+    .app-story-blog p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px!important;
+        color: #444;
+        font-weight: normal;
+        letter-spacing: 0.01rem;
+        -webkit-font-smoothing: antialiased;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .black{
+        color:black;
+    
+    }
+    
+    
+    h2.story-headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px!important;
+        letter-spacing: -0.01rem;
+        /* padding-bottom: 15px; */
+        line-height: 1.5em!important;
+    }
+    h2.green-story-headline{
+        color: #1FA27F;
+        font-size: 40px!important;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
