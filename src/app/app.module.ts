@@ -25,6 +25,7 @@ import { CoffeeshopComponent } from './components/coffeeshop/coffeeshop.componen
 import { VetsComponent } from './components/vets/vets.component';
 import { SchoolsComponent } from './components/schools/schools.component';
 import { StoryComponent } from './components/story/story.component';
+import { SmartphoneComponent } from './components/smartphone/smartphone.component';
 
 
 // Page Routes
@@ -42,6 +43,7 @@ const appRoutes:Routes=[
   {path:'app-vets', component:VetsComponent},
   {path:'app-schools', component:SchoolsComponent},
   {path:'app-story', component:StoryComponent},
+  {path:'app-smartphone', component:SmartphoneComponent},
 ]
 
 @NgModule({
@@ -59,7 +61,8 @@ const appRoutes:Routes=[
     CoffeeshopComponent,
     VetsComponent,
     SchoolsComponent,
-    StoryComponent
+    StoryComponent,
+    SmartphoneComponent
   ],
   imports: [
     BrowserModule,

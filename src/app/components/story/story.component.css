@@ -1,8 +1,10 @@
 
-section{
-    padding-top:40px;
-    padding-bottom:40px;
-}
+/* section{
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:3%;
+} */
+
 
 
 
@@ -23,3 +25,69 @@ img.oneapp-img {
     -o-border-radius: 10px;
 }
 
+
+
+section.app-story-blog{
+    padding-top:50px!important;
+    padding-bottom:50px!important;
+    padding-left:3%;
+
+}
+
+
+
+.green-text{
+font-family: 'Montserrat', sans-serif;
+    color: #1FA27F;
+    font-weight: 900;
+    text-align: center;
+    font-size: 35px;
+    line-height:45px
+}
+
+h4.business-story {
+    padding-top: 10px;
+    color: black!important;
+    text-align: center;
+    font-size: 28px;
+    /* font-size: 40px!important; */
+    letter-spacing: -0.01rem;
+    padding-bottom:15px;
+}
+
+span.yours-span{
+    color: #1FA27F;
+    font-weight: 900;
+
+}
+
+.app-story-blog p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px!important;
+    color: #444;
+    font-weight: normal;
+    letter-spacing: 0.01rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 40px;
+    text-align: center;
+}
+
+.black{
+    color:black;
+
+}
+
+
+h2.story-headline {
+font-family: 'Montserrat', sans-serif;
+font-size: 40px!important;
+    letter-spacing: -0.01rem;
+    /* padding-bottom: 15px; */
+    line-height: 1.5em!important;
+}
+h2.green-story-headline{
+    color: #1FA27F;
+    font-size: 40px!important;
+    font-family: 'Montserrat', sans-serif;
+
+}
