@@ -36,6 +36,7 @@ import { UnderstandComponent } from './components/understand/understand.componen
 import { LookingComponent } from './components/looking/looking.component';
 import { CustomersComponent } from './components/customers/customers.component';
 import { LogoLivesComponent } from './components/logo-lives/logo-lives.component';
+import { ShopComponent } from './components/shop/shop.component';
 
 
 // Page Routes
@@ -59,6 +60,7 @@ const appRoutes:Routes=[
   {path:'app-looking', component:LookingComponent},
   {path:'app-customers', component:CustomersComponent},
   {path:'app-logo-lives', component:LogoLivesComponent},
+  {path:'app-shop', component:ShopComponent},
 ]
 
 @NgModule({
@@ -82,7 +84,8 @@ const appRoutes:Routes=[
     UnderstandComponent,
     LookingComponent,
     CustomersComponent,
-    LogoLivesComponent
+    LogoLivesComponent,
+    ShopComponent
   ],
   imports: [
     BrowserModule,
