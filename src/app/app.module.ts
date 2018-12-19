@@ -1,5 +1,7 @@
 
 
+
+
 //Routers and Forms
   import{ FormsModule} from '@angular/forms';
  import {RouterModule,Routes} from'@angular/router';
@@ -32,6 +34,8 @@ import { MarketingComponent } from './components/marketing/marketing.component';
 
 import { UnderstandComponent } from './components/understand/understand.component';
 import { LookingComponent } from './components/looking/looking.component';
+import { CustomersComponent } from './components/customers/customers.component';
+import { LogoLivesComponent } from './components/logo-lives/logo-lives.component';
 
 
 // Page Routes
@@ -53,6 +57,8 @@ const appRoutes:Routes=[
   {path:'app-marketing', component:MarketingComponent},
   {path:'app-understand', component:UnderstandComponent},
   {path:'app-looking', component:LookingComponent},
+  {path:'app-customers', component:CustomersComponent},
+  {path:'app-logo-lives', component:LogoLivesComponent},
 ]
 
 @NgModule({
@@ -74,7 +80,9 @@ const appRoutes:Routes=[
     SmartphoneComponent,
     MarketingComponent,
     UnderstandComponent,
-    LookingComponent
+    LookingComponent,
+    CustomersComponent,
+    LogoLivesComponent
   ],
   imports: [
     BrowserModule,
