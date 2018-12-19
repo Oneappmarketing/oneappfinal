@@ -1,3 +1,5 @@
+
+
 //Routers and Forms
   import{ FormsModule} from '@angular/forms';
  import {RouterModule,Routes} from'@angular/router';
@@ -26,6 +28,7 @@ import { VetsComponent } from './components/vets/vets.component';
 import { SchoolsComponent } from './components/schools/schools.component';
 import { StoryComponent } from './components/story/story.component';
 import { SmartphoneComponent } from './components/smartphone/smartphone.component';
+import { MarketingComponent } from './components/marketing/marketing.component';
 
 
 // Page Routes
@@ -44,6 +47,7 @@ const appRoutes:Routes=[
   {path:'app-schools', component:SchoolsComponent},
   {path:'app-story', component:StoryComponent},
   {path:'app-smartphone', component:SmartphoneComponent},
+  {path:'app-marketing', component:MarketingComponent},
 ]
 
 @NgModule({
@@ -62,7 +66,8 @@ const appRoutes:Routes=[
     VetsComponent,
     SchoolsComponent,
     StoryComponent,
-    SmartphoneComponent
+    SmartphoneComponent,
+    MarketingComponent
   ],
   imports: [
     BrowserModule,
