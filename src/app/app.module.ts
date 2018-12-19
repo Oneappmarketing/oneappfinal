@@ -31,6 +31,7 @@ import { SmartphoneComponent } from './components/smartphone/smartphone.componen
 import { MarketingComponent } from './components/marketing/marketing.component';
 
 import { UnderstandComponent } from './components/understand/understand.component';
+import { LookingComponent } from './components/looking/looking.component';
 
 
 // Page Routes
@@ -51,6 +52,7 @@ const appRoutes:Routes=[
   {path:'app-smartphone', component:SmartphoneComponent},
   {path:'app-marketing', component:MarketingComponent},
   {path:'app-understand', component:UnderstandComponent},
+  {path:'app-looking', component:LookingComponent},
 ]
 
 @NgModule({
@@ -71,7 +73,8 @@ const appRoutes:Routes=[
     StoryComponent,
     SmartphoneComponent,
     MarketingComponent,
-    UnderstandComponent
+    UnderstandComponent,
+    LookingComponent
   ],
   imports: [
     BrowserModule,
